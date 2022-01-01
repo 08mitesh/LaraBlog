@@ -63,10 +63,10 @@ class UsersTableSeeder extends Seeder
         } else {
             $owner = User::create(
                 [
-                    'name' => 'Al- Imran Ahmed',
-                    'username' => 'al_imran_ahmed',
+                    'name' => 'Mitesh Bhanushali',
+                    'username' => 'mitesh',
                     'password' => bcrypt('owner'),
-                    'email' => 'al.imran.cse@gmail.com',
+                    'email' => 'miteshbhanushali08@gmail.com',
                     'last_ip' => '127.0.0.1',
                 ]
             );
